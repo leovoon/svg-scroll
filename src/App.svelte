@@ -1,6 +1,5 @@
 <script>
-	import { inner } from './shape.js';
-	
+	import { inner } from './shape.js';	
 	const innerArr = inner.split(',');
 	
 	let scrollY;
@@ -23,16 +22,18 @@
 	</svg>
 </div>
 
+<footer style="width:100%; text-align:center; position:fixed; bottom:0; left:0; padding-bottom:4rem;">Made for fun by <b><a href="https://github.com/leovoon/svg-scroll">leovoon</a></b>.</footer>
+
 
 <style>
 	:global(body){
-		height: calc(5*100vh);
+		height: calc(4*100vh);
 		overflow-x: hidden;
 	}
 	
 	.container {
 		position: fixed; 
-		top: 10%;
+		top: 20%;
 		left: 50%;
 		transform: translateX(-50%);
 	}
